@@ -6,4 +6,3 @@ const person = {
         country : "Canada"
         };
         
-        console.log(person);
