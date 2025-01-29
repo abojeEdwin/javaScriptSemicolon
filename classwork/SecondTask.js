@@ -4,7 +4,7 @@ const car = {
             year : 2021
             };
 
-function carProperties(car){
+const carProperties = (car) =>{
     for (const property in car){
         console.log(`${property}: ${car[property]}`)
     }
