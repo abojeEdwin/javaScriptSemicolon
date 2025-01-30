@@ -5,10 +5,6 @@ function reverse(number){
         let firstDigit = Math.floor(dummyValue / 10)
         console.log(lastDigit+""+ secondDigit +""+firstDigit)
 };
-let number = 234;
-let result = reverse(number);
-
-
 function isPalindrome(number){
         let lastDigit = number % 10
         let dummyValue = Math.floor(number / 10)
@@ -21,5 +17,4 @@ function isPalindrome(number){
                 console.log("False")
                 }
 };
-let number2 = 579;
-let result2 = isPalindrome(number2);
+
