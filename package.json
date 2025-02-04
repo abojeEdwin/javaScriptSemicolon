@@ -1,11 +1,11 @@
 {
-  "dependencies": {
-    "jest": "^29.7.0",
-    "prompt-sync": "^4.2.0"
-  }
-  {
+  "name": "chapter6exercise",
+  "version": "1.0.0",
+  "main": "FifthTask.js",
   "scripts": {
     "test": "jest"
-  }
-}
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
