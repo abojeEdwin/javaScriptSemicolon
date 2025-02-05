@@ -22,6 +22,26 @@ function getOddNumbers(arr){
     }
     }
     return newArray;
-    }    
-module.exports = {multiply,addTwoNumbers,getOddNumbers};
+    }  
+    
+function divide(numberOne, numberTwo){
+    let result = numberOne / numberTwo;
+    return result;
+    };
+
+function raised(numberOne, numberTwo){
+    let result = numberOne ** numberTwo;
+    return result;
+}
+
+function getEvenNumbers(arr){
+    const newArray = [];
+    for(let index in arr){
+        if(arr[index] %2 === 0){
+            newArray.push(arr[index]);
+        }
+    }
+    return newArray;
+}
+module.exports = {multiply,addTwoNumbers,getOddNumbers,divide,raised,getEvenNumbers};
 
