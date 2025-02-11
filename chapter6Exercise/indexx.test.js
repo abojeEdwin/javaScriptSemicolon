@@ -9,16 +9,16 @@ test('returns error message for negetive numbers',()=> {
 })
 
 test('add two numbers', ()=>{
-let sum = addTwoNumbers(numberOne, numberTwo);
-let answer = 12;
-expect(sum).toBe(answer);
+  let sum = addTwoNumbers(numberOne, numberTwo);
+  let answer = 12;
+  expect(sum).toBe(answer);
 })
 
 test('return odd numbers', ()=>{
-let arrayOfNumbers = [1,2,3,4,8,5];
-let result = getOddNumbers(arrayOfNumbers);
-let answer = [1,3,5]
-expect(result).toEqual(result)})
+  let arrayOfNumbers = [1,2,3,4,8,5];
+  let result = getOddNumbers(arrayOfNumbers);
+  let answer = [1,3,5]
+  expect(result).toEqual(result)})
 
 test('return division of two numbers',()=>{
 let division = divide(numberOne, numberTwo);

@@ -1,17 +1,23 @@
 let bankAccount ={
     owner: "Alice",
-     balance: 500 ,
+     balance : 500 ,
     deposit (amount){
-        this.balance += amount;},
+        if(amount < 1){
+            console.log("Amount is less than 1");
+        }
+        this.balance += amount;
+        },
     withdraw(amount) {
         if (this.balance > amount) {
-            amount -= this.balance
+            this.balance -= amount;
+            console.log("Withdrawal successful");
         } else
             console.log("Insufficient balance");
     }
 }
 
-bankAccount.deposit(200);
-//console.log(bankAccount.balance);
+bankAccount.deposit(1000);
+bankAccount.withdraw(500);
 bankAccount.withdraw(1000);
+bankAccount.deposit(0);
 console.log(bankAccount.balance);
