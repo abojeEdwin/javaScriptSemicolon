@@ -4,4 +4,4 @@ const profile = {
         profession: "Engineer"
         };
 const [name,age,profession] = ["Sam",40,"Engineer"];
-console.log("name"+": " +b b  name + "\n" + "age" + ": " + age);
+console.log("name"+": " +name + "\n" + "age" + ": " + age);

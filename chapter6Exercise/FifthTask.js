@@ -3,7 +3,7 @@ function displaySortedNumber(num1,num2,num3){
     let midDigit = num1
     let smallest = num1
     
-        if(num2 > largestDigit){
-            largestDigit = num2}
-         if()   
+        //if(num2 > largestDigit){
+           // largestDigit = num2}
+         //if()
             }

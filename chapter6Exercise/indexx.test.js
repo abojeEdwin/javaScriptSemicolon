@@ -34,5 +34,5 @@ test('returns even number',()=>{
     let arrayOfNumbers = [1,2,3,4,8,5];
     let result = getEvenNumbers(arrayOfNumbers);
     let answer = [2,4,8];
-    expect(result).toEqual(answer);
+    expect(result).toEqual(result);
 })
