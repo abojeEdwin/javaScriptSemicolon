@@ -10,9 +10,8 @@ let student = {
 student["age"] = 23;
 student["GPA"] = 3.8;
 
-student  = function getDetails(){
-    return "John Doe is 23 years old and has a GPA of 3.8."
-
+ function getDetails(){
+    console.log(student.name + " is "+ student.age + " years old " + "and has a CGPA of " + student.GPA);
 }
-
-console.log(student);
+getDetails();
+ console.log(student);
