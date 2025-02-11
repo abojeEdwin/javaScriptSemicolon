@@ -1,4 +1,4 @@
-const {getDoubledNumbers, getEvenNumbers,getOddNumbers} = require("./array")
+const {getDoubledNumbers, getEvenNumbers,getOddNumbers,addThreeNumbers} = require("./array")
 
 beforeEach(()=>{
     numbers = [2,3,4,5,6,7]
@@ -19,5 +19,11 @@ test("get even numbers", ()=>{
 test("get odd numbers", () =>{
     let result = getOddNumbers(numbers);
     let answer = [3,5,7]
+    expect(result).toEqual(answer);
+})
+
+test("Add three to each element", ()=>{
+    let result = addThreeNumbers(numbers);
+    let answer = [5,6,7,8,9,10]
     expect(result).toEqual(answer);
 })

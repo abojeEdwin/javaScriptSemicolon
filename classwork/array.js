@@ -27,4 +27,9 @@ function getOddNumbers(arraysofNumbers){
     return oddNumbers;
 }
 
-module.exports = {getDoubledNumbers, getEvenNumbers, getOddNumbers};
+function addThreeNumbers(numbers){
+    let result = numbers.map((number) => (number + 3));
+    return result;
+}
+
+module.exports = {getDoubledNumbers, getEvenNumbers, getOddNumbers,addThreeNumbers};
