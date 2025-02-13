@@ -16,15 +16,13 @@ function getEvenNumbers(arraysofNumbers){
     });
     return evenNumbers;
 }
+const isOdd = (number)=>{
+    let answer = number % 2 != 0;
+    return answer;
+};
 
 function getOddNumbers(arraysofNumbers){
-    let oddNumbers = [];
-    arraysofNumbers.forEach(element => {
-        if(element % 2 != 0){
-            oddNumbers.push(element);
-        }
-    })
-    return oddNumbers;
+    return arraysofNumbers.filter(isOdd);
 }
 
 function addThreeNumbers(numbers){

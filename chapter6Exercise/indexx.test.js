@@ -1,4 +1,4 @@
-const {multiply,addTwoNumbers,getOddNumbers,divide,raised,getEvenNumbers} = require("./indexx.js")
+const {multiply,addTwoNumbers,getOddNumbers,divide,raised, getEvenNumbers,getWordsGreaterThanFourLetter, getStudents} = require("./indexx.js")
     let numberOne = 10;
     let numberTwo = 2;
 
@@ -35,4 +35,23 @@ test('returns even number',()=>{
     let result = getEvenNumbers(arrayOfNumbers);
     let answer = [2,4,8];
     expect(result).toEqual(result);
+})
+
+test('test that function returns words with letters greater than four', ()=>{
+    let words = ["java","python","javascript","hello","php","mel"]
+    let result  = getWordsGreaterThanFourLetter(words)
+    let answer = ["java","python","javascript","hello"]
+    expect(result).toEqual(answer);
+})
+
+test('returns objects with age greater than 20', ()=>{
+    const student = [
+        {name : "john", age : 20},
+        {name : "jane", age : 21},
+        {name : "alice", age : 19},
+        {name : "betty", age : 22},
+    ]
+    let result = getStudents(student);
+    let answer= [{ name : "jane", age : 21}, { name : "betty" , age : 22}];
+    expect(result).toStrictEqual(answer);
 })

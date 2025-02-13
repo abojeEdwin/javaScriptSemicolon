@@ -43,5 +43,15 @@ function getEvenNumbers(arr){
     }
     return newArray;
 }
-module.exports = {multiply,addTwoNumbers,getOddNumbers,divide,raised,getEvenNumbers};
+
+function getWordsGreaterThanFourLetter(words){
+    let result = words.filter(word => word.length >= 4)
+    return result;
+}
+
+function getStudents(student){
+    return student.filter((student) => student.age > 20)
+}
+
+module.exports = {multiply,addTwoNumbers,getOddNumbers,divide,raised,getEvenNumbers,getWordsGreaterThanFourLetter,getStudents};
 
