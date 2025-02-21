@@ -7,8 +7,6 @@ const inventory = {
     for(const keys in inventory) {
         console.log([keys] + ": "  + inventory[keys]);
     }
-
-//console.log(`${keys}: ${inventory[keys]}`)
 let total = 0;
 for(let keys in inventory){
   sum = total += inventory[keys];

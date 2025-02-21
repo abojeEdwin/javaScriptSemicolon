@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15cd653e-d050-48df-8574-314a35025388" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexC23.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/indexC23.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c23/HcfTask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c23/batman.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c23/mrchiTask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c23/objects/HcfTask2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c23/objects/Inheritance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c23/objects/icebreaker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c23/simplecalculator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c23/taskCheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c23/objects/fourthTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/../c23/objects/fourthTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +36,7 @@
   &quot;keyToString&quot;: {
     &quot;Node.js.EighthTask.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.SecondTask.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.count.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -43,7 +52,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
       </set>
     </attachedChunks>
   </component>
@@ -59,6 +68,11 @@
       <workItem from="1739264966347" duration="38000" />
       <workItem from="1739269078671" duration="2378000" />
       <workItem from="1739306293400" duration="32000" />
+      <workItem from="1739351817648" duration="12618000" />
+      <workItem from="1739805507429" duration="70000" />
+      <workItem from="1739805851104" duration="622000" />
+      <workItem from="1739807423553" duration="28000" />
+      <workItem from="1739956541029" duration="1374000" />
     </task>
     <servers />
   </component>
